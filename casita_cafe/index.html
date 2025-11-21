@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Casita de Café</title>
+    <link rel="stylesheet" href="public_html/css/styles.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <ul>
+            <li><a data-section="inicio" class="active">Inicio</a></li>
+            <li><a data-section="promociones">Promociones</a></li>
+            <li><a data-section="carta">Carta</a></li>
+            <li><a data-section="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIONES SPA -->
+
+    <!-- INICIO -->
+    <section id="inicio" class="section visible">
+        <header class="banner">
+            <img src="public_html/img/banner.jpg" alt="Café Espresso" class="banner-img" />
+            <div class="banner-overlay">
+                <h1>La Casita de Café</h1>
+                <p>El mejor aroma para tu día</p>
+            </div>
+        </header>
+    </section>
+
+    <!-- PROMOCIONES -->
+    <section id="promociones" class="section">
+        <h2>Nuestros 3 Mejores Cafés</h2>
+        <div class="promo-container">
+            <div class="card">
+                <img src="public_html/img/cafe_01.jpg" alt="Café Espresso" />
+                <h3>Espresso</h3>
+                <p>Fuerte e intenso, para amantes del café puro.</p>
+            </div>
+
+            <div class="card">
+                <img src="public_html/img/cafe_02.jpg" alt="Café Latte" />
+                <h3>Latte</h3>
+                <p>Mezcla suave de espresso y leche cremosa.</p>
+            </div>
+
+            <div class="card">
+                <img src="public_html/img/cafe_03.jpg" alt="Cappuccino" />
+                <h3>Cappuccino</h3>
+                <p>Clásico café equilibrado entre leche y espuma.</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- CARTA -->
+<section id="carta" class="section">
+    <h2>Carta - Productos Disponibles Hoy</h2>
+
+    <!-- ===================== -->
+    <!--      SECCIÓN CAFÉS    -->
+    <!-- ===================== -->
+    <h3 style="margin-top: 30px;">☕ Cafés</h3>
+    <div class="promo-container">
+
+        <div class="card">
+            <img src="public_html/img/cafe_Americano.jpg" alt="Americano" />
+            <h3>Americano</h3>
+            <p>Café ligero y suave, ideal para comenzar el día.</p>
+            <strong>S/ 8.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/cafe_Mocha.jpg" alt="Mocha" />
+            <h3>Mocha</h3>
+            <p>Espresso con leche y chocolate.</p>
+            <strong>S/ 12.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/cafe_Frappe.jpg" alt="Frappe" />
+            <h3>Frappe</h3>
+            <p>Bebida helada con crema y hielo.</p>
+            <strong>S/ 14.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/cafe_4.jpg" alt="Café Cortado" />
+            <h3>Café Cortado</h3>
+            <p>Espresso con un toque de leche.</p>
+            <strong>S/ 9.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/cafe_05.jpg" alt="Latte Vainilla" />
+            <h3>Latte Vainilla</h3>
+            <p>Leche cremosa aromatizada con vainilla.</p>
+            <strong>S/ 13.00</strong>
+        </div>
+
+    </div>
+
+    <!-- ======================== -->
+    <!--      SECCIÓN PASTELES    -->
+    <!-- ======================== -->
+    <h3 style="margin-top: 50px;">🍰 Pasteles</h3>
+    <div class="promo-container">
+
+        <div class="card">
+            <img src="public_html/img/Pastel_Chocolate.jpg" alt="Pastel de Chocolate" />
+            <h3>Pastel de Chocolate</h3>
+            <p>Bizcocho húmedo con cobertura de cacao.</p>
+            <strong>S/ 9.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/Pastel_Fresa.jpg" alt="Pastel de Fresa" />
+            <h3>Pastel de Fresa</h3>
+            <p>Relleno y decoración con fresas naturales.</p>
+            <strong>S/ 10.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/Cheesecake.jpg" alt="Cheesecake" />
+            <h3>Cheesecake</h3>
+            <p>Cremoso postre clásico con base crocante.</p>
+            <strong>S/ 12.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/Tres_Leches.jpg" alt="Tres Leches" />
+            <h3>Tres Leches</h3>
+            <p>Bizcocho suave empapado en tres leches.</p>
+            <strong>S/ 11.00</strong>
+        </div>
+
+        <div class="card">
+            <img src="public_html/img/pastel_oreo.jpg" alt="Pastel Oreo" />
+            <h3>Pastel Oreo</h3>
+            <p>Cremoso, con trozos de galletas Oreo.</p>
+            <strong>S/ 12.00</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Email: contacto@lacasitadecafe.com</p>
+        <p>Tel: +51 987 654 321</p>
+        <p>Dirección: Jr. Los Aromas 123, Lima - Perú</p>
+    </section>
+
+    <script src="public_html/js/script.js"></script>
+</body>
+</html>
